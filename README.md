@@ -1,3 +1,6 @@
-# Yoann Website
-
-C'est le site de yoann Malloute, j'espere il sera beau comme lui 🥰
+# Menu Sorting 📃
+![alt text](public/thumbnail.jpg)
+## Technologies used:
+- `React.js`
+- `Emotion.sh`
+- `Framer-Motion`
