@@ -33,42 +33,37 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-          Yoann MALLAT
+          Yoann's Pizzas
         </Link>
         <div className='menu-icon' onClick={handleClick}>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-          <li
-            className='nav-item'
-            onMouseEnter={onMouseEnter}
-            onMouseLeave={onMouseLeave}
-          >
-            <Link
-              to='/projet'
-              className='nav-links'
-              onClick={closeMobileMenu}
-            >
-              Projet(s) <i className='fas fa-caret-down' />
-            </Link>
-            {dropdown && <Dropdown />}
-          </li>
           <li className='nav-item'>
             <Link
-              to='/Yoann'
+              to='/Pizza'
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              A propos de moi
+              Pizzas
             </Link>
           </li>
           <li className='nav-item'>
             <Link
-              to='/cv'
+              to='/boissons'
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              CV
+              Boissons
+            </Link>
+          </li>
+          <li className='nav-item'>
+            <Link
+              to='/propos'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              A propos de nous
             </Link>
           </li>
         </ul>

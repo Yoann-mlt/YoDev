@@ -1,6 +1,196 @@
-.homepage {
-    color: brown;
-    background-color: #252525;
-    size: 40px;
-    font-size: large;
+.App {
+    text-align: center;
+    background-color: white;
+  }
+  
+  .App-logo {
+    height: 60vmin;
+    pointer-events: none;
+  }
+
+  .insideBox {
+    background-color: #F7F3F2 ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #222;
+    border-radius: 45px;
+  }
+
+  .containBoissons {
+      background-color: white;
+  }
+
+  .containCards {
+    background-color: white;
+  }
+  .imageH {
+    flex: 1;
+  }
+  
+  .texteH {
+    display: flex;
+  text-align: right;
+  justify-content: right;
+  align-items:flex-end;
+  }
+  
+  .cook {
+    display: flex;
+    text-align: right;
+    margin-top: 40px;
+    align-items: center;
+    justify-content:space-around;
+    background-color: white;
+  }
+  
+  .freshFarine {
+    display: flex;
+    text-align: left;
+    margin-top: 20px;
+    align-items: center;
+    justify-content:space-around;
+    background-color:white;
+  }
+
+  .formLabel {
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #222;
+    background: white;
+    color: black;
+
+  }
+  
+  .Ingredient {
+    margin-top: 30px;
+    margin: 30px;
+    width: '30%' ;
+    height: 30vmin;
+    pointer-events: none;
+  }
+
+
+  .TexteBlack {
+      color: #000;
+      width: 550px ;
+    height: 150px;
+  }
+  
+  .containHistory {
+    background-color: white;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .texte {
+    width: 550px ;
+    height: 150px;
+  }
+  
+  .containContact {
+    background-color:#FFE900;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+
+  .Assortements {
+    color: black;
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  
+  .footer {
+    background: white;
+    color: black;
 }
+  
+  .feuDeBois {
+    margin-top: 30px;
+    margin: 30px;
+    margin-right: 50px;
+    width: '30%' ;
+    height: 20vmin;
+    pointer-events: none;
+  }
+
+  .rip {
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .pizzaCards {
+    margin-top: 30px;
+    margin: 30px;
+    width: '30%' ;
+    height: 30vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+
+  .btnBoisson {
+    text-transform: uppercase;
+    color: #000;
+    transition: all 0.3s ease 0s;
+    border-radius: 45px;
+    cursor: pointer;
+    background: #E53D00;
+    padding: 10px 52px;
+  }
+
+  .btnBoisson:hover {
+      color: black;
+      background-color: #FFE900;
+  }
+  
+  /* From cssbuttons.io */
+  .btn {
+    text-transform: uppercase;
+    color: #000;
+    border: none;
+    border-radius: 45px;
+    background-color: "#CC7700";
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+   }
+  
+   .btn:hover {
+    color: #fff;
+   }
+   
+  
+  .App-header {
+      background-image:url(../images/braise.jpeg);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

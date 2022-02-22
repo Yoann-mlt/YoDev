@@ -1,10 +1,15 @@
-.btn {
-    background-color: rgb(0, 240, 168);
-    height: 45px;
-    width: 150px;
-    font-size: 20px;
-    border-radius: 30px;
-    margin-right: 100px;
-    color: rgb(40, 45, 50);
-    cursor: pointer;
+.btnn {
+  text-transform: uppercase;
+  color: #000;
+  transition: all 0.3s ease 0s;
+  border-radius: 45px;
+  cursor: pointer;
+  background: #E53D00;
+  padding: 10px 52px;
+  margin-right: 50px;
+  }
+
+  .btnn:hover {
+    color: black;
+    background-color: #FFE900;
 }

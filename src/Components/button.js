@@ -4,9 +4,9 @@ import '../CSS/button.css'
 
 export function Button() {
     return(
-        <Link to='sign-up'>
-            <button className='btn'>
-               Un projet ?
+        <Link to='/Contact'>
+            <button className='btnn'>
+               Contact
             </button>
         </Link>
     )
