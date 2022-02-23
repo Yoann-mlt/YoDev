@@ -87,10 +87,11 @@
 
 
   .TexteBlack {
-      color: #000;
-      width: 550px ;
-    height: 150px;
-  }
+    color: #000;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}
   
   .containHistory {
     background-color: white;
