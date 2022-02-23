@@ -1,7 +1,7 @@
 import React from 'react'
 import '../CSS/home.css'
 import pizzaImg from '../images/pizza.png'
-import feuDeBois from '../images/feuDeBois.jpeg'
+import four from '../images/four.png'
 import pate from '../images/pate.jpeg'
 import freshI from '../images/freshI.png'
 import Ripples from 'react-ripples'
@@ -24,11 +24,6 @@ export default function Home() {
           <img src={pizzaImg} className="pizzaCards" alt="pizza" />
           <h3> LA MARGHERITA </h3>
           <p>Sauce tomate San Marzano AOP, <br/>mozza fior di latte, <br/>basilic frais, huile d’olive</p>
-          <Ripples className='rip'>
-            <button type="button" className="btnBoisson">
-                Order
-            </button>
-          </Ripples>
         </div>
         );
       }
@@ -39,11 +34,6 @@ export default function Home() {
           <img src={pizzaImg} className="pizzaCards" alt="pizza" />
           <h3> LA MARINARA </h3>
           <p>Sauce tomate San Marzano AOP, ail, <br/> basilic frais, origan, huile d olive</p>
-          <Ripples className='rip'>
-            <button type="button" className="btnBoisson">
-                Order
-            </button>
-          </Ripples>
         </div>
         );
       }
@@ -54,11 +44,6 @@ export default function Home() {
           <img src={pizzaImg} className="pizzaCards" alt="pizza" />
           <h3> LA MELANCHOIS </h3>
           <p>Sauce tomate San Marzano AOP,anchois,<br/> câpres, olives, basilic frais,<br/> huile d’olive</p>
-          <Ripples className='rip'>
-            <button type="button" className="btnBoisson">
-                Order
-            </button>
-          </Ripples>
         </div>
         );
       }
@@ -69,11 +54,6 @@ export default function Home() {
           <img src={pizzaImg} className="pizzaCards" alt="pizza" />
           <h3> LA BUFALLA BILL </h3>
           <p>Sauce tomate San Marzano AOP,mozza di Bufala,<br/> basilic frais, huile d’olive</p>
-          <Ripples className='rip'>
-            <button type="button" className="btnBoisson">
-                Order
-            </button>
-          </Ripples>
         </div>
         );
       }
@@ -84,11 +64,6 @@ export default function Home() {
           <img src={pizzaImg} className="pizzaCards" alt="pizza" />
           <h3> LA PUISSANCE 4 </h3>
           <p>Gorgonzola, Tallegio, mozzaFior di Latte, <br/> parmesan, basilic frais, huile dolive </p>
-          <Ripples className='rip'>
-            <button type="button" className="btnBoisson">
-                Order
-            </button>
-          </Ripples>
         </div>
         );
       }
@@ -99,11 +74,6 @@ export default function Home() {
           <img src={pizzaImg} className="pizzaCards" alt="pizza" />
           <h3> LA CALORE </h3>
           <p>Sauce tomate SanMarzano AOP, salamipiccante,<br/> fior di latte, basilic frais, huile d'olive</p>
-          <Ripples className='rip'>
-            <button type="button" className="btnBoisson">
-                Order
-            </button>
-          </Ripples>
         </div>
         );
       }
@@ -114,11 +84,6 @@ export default function Home() {
           <img src={pizzaImg} className="pizzaCards" alt="pizza" />
           <h3> LA VEGETA (RIEN) </h3>
           <p>Sauce tomate SanMarzano AOP, légumesdu jour,<br/> fior di latte diAgerola, basilic frais,<br/>huile d'olive</p>
-          <Ripples className='rip'>
-            <button type="button" className="btnBoisson">
-                Order
-            </button>
-          </Ripples>
         </div>
         );
       }
@@ -131,11 +96,6 @@ export default function Home() {
              <img src={cocktail} className="cokctailCards" alt="pizza" />
           <h3> AMARETTO SOUR </h3>
           <p>Amaretto, citron vert, Angostura</p>
-          <Ripples className='rip'>
-            <button type="button" className='btnBoisson'>
-                Order
-            </button>
-          </Ripples>
         </div>
         );
       }
@@ -146,11 +106,6 @@ export default function Home() {
              <img src={spritz} className="cokctailCards" alt="pizza" />
           <h3> SPRITZ </h3>
           <p>Aperol, Prosecco, eau gazeuse.</p>
-          <Ripples className='rip'>
-            <button type="button" className='btnBoisson'>
-                Order
-            </button>
-          </Ripples>
         </div>
         );
       }
@@ -161,11 +116,6 @@ export default function Home() {
              <img src={gin} className="cokctailCards" alt="pizza" />
           <h3> GIN TONIC </h3>
           <p>La base</p>
-          <Ripples className='rip'>
-            <button type="button" className='btnBoisson'>
-                Order
-            </button>
-          </Ripples>
         </div>
         );
       }
@@ -176,11 +126,6 @@ export default function Home() {
              <img src={gin2} className="cokctailCards" alt="pizza" />
           <h3> GIN BASILIC </h3>
           <p>Gin, basilic, citron vert.</p>
-          <Ripples className='rip'>
-            <button type="button" className='btnBoisson'>
-                Order
-            </button>
-          </Ripples>
         </div>
         );
       }
@@ -191,11 +136,6 @@ export default function Home() {
              <img src={NEGRONI} className="cokctailCards" alt="pizza" />
           <h3> NEGRONI</h3>
           <p>Gin, Vermouth, Campari.</p>
-          <Ripples className='rip'>
-            <button type="button" className='btnBoisson'>
-                Order
-            </button>
-          </Ripples>
         </div>
         );
       }
@@ -278,25 +218,41 @@ export default function Home() {
           <br/>
           <br/>
          <h1 className='Assortements'> Qui sommes nous ?</h1>
-          <div className='cook'>
-          <img src={feuDeBois} className="feuDeBois" alt="pizzaCards" />
-          <p className='TexteBlack'>Sonata, pourquoi Sonata? Parce qu’on a la musique dans la peau, nous adorons la musique, et nous sommes des passionnés de la pizza. Nous avons chacun de notre côté parcourue le monde a la recherche de la meilleure pizza, pour finalement se résoudre a ouvrir nos propres pizzerias, nous utilisons uniquement des produits frais et de qualité, choisie avec patience et amour!
 
-Ce qui nous a amenés a ce projet fou en qui personne ne croyait, c’est notre détermination, on ne s’arrête jamais de s’améliorer, on apprend encore tous les jours et nous avons encore un long chemin à parcourir.</p>
+          <Box sx={{ 
+            display: 'flex',
+            flexDirection: 'row',
+            flexWrap: 'wrap',
+            justifyContent:'center',
+            alignItems:'center',
+            backgroundColor: "#ffffff",}}>
+                <Box className='insideBox' component="span" sx={{ p: 2, border: '1px solid #222', margin:'10px',  width:'1000px', height:'350px', backgroundColor:'#fff' }}>
+                <div className='cook'>
+                <img src={four} className="feuDeBois" alt="pizzaCards" />
+                  <p className='TexteBlack'> <h3>Sonata, pourquoi Sonata?</h3> Parce qu’on a la musique dans la peau, <span className='valeur'> nous adorons la musique </span>, et nous sommes des <span className='valeur'> passionnés de la pizza </span>. Nous avons chacun de notre côté parcourue le monde a la recherche de la meilleure pizza, pour finalement se résoudre a ouvrir nos propres pizzerias, nous utilisons uniquement <span className='valeur'> des produits frais et de qualité </span>, choisie avec patience et amour!
+                  Ce qui nous a amenés a ce projet fou en qui personne ne croyait, c’est notre détermination, on ne s’arrête jamais de s’améliorer, on apprend encore tous les jours et nous avons encore un long chemin à parcourir.</p>
+                  </div>
+                </Box>
+                <Box className='insideBox' component="span" sx={{ p: 2, border: '1px solid #222', margin:'10px', width:'1000px', height:'350px', backgroundColor:'#fff' }}>
+                <div className='freshFarine'>
+                          <p className='TexteBlack'> <h3>L'idée du restaurant</h3>Nous avons été amené a rencontrer plusieurs <span className='valeur'> grands chefs pizzaiolos </span> qui on sut nous faire confiance. Ils ont on sut nous transmettre <span className='valeur'> leur savoir-faire </span> sans douter de nos compétences et de notre motivation. À force de remise en question c’est ce qui fait de SONATA ce qu’il est devenu aujourd’hui:  <span className='valeur'>une réussite fidèle au code de la  traditionnelle pizza napolitaine </span> avec une ambiance chaleureuse et amicale.
+                  ‍
+                  À très vite dans nos restaurants.</p>
+                            <img src={pate} className="feuDeBois" alt="pizzaCards" />
+                          </div>
+                </Box>
+                <Box className='insideBox' component="span" sx={{ p: 2, border: '1px solid #222', margin:'10px', width:'1000px', height:'350px', backgroundColor:'#fff' }}>
+                <div className='cook'>
+                  <img src={freshI} className="Ingredient" alt="pizzaCards" />
+                  <p className='TexteBlack'><h3>La qualité des ingrédients</h3>Tous nos fromages sont <span className='valeur'> certifiés AOP </span>
+        Notre huile d'olive est produite aux pieds des Alpilles en Provence</p>
+                </div>
+                </Box>
+        </Box>
+
         </div>
-        <div className='freshFarine'>
-        <p className='TexteBlack'>Nous avons été amené a rencontrer plusieurs grands chefs pizzaiolos qui on sut nous faire confiance. Ils ont on sut nous transmettre leur savoir-faire sans douter de nos compétences et de notre motivation. À force de remise en question c’est ce qui fait de SONATA ce qu’il est devenu aujourd’hui: une réussite fidèle au code de la  traditionnelle pizza napolitaine avec une ambiance chaleureuse et amicale.
-‍
-À très vite dans nos restaurants.</p>
-          <img src={pate} className="feuDeBois" alt="pizzaCards" />
-        </div>
-        <div className='cook'>
-          <img src={freshI} className="Ingredient" alt="pizzaCards" />
-          <p className='TexteBlack'>Tous nos fromages sont certifiés AOP
-Notre huile d'olive est produite aux pieds des Alpilles en Provence</p>
-        </div>
-        </div>
-        <div className='containContact'>
+
+        <div className='ContactCard'>
           <h1> Nous contacter </h1>
           <br/> <br/>
           <div className='form'>
@@ -322,7 +278,7 @@ Notre huile d'olive est produite aux pieds des Alpilles en Provence</p>
             <textarea className='formLabel'></textarea>
             </label>
             <br/> <br/>
-            <input type="submit" value="Envoyer" />
+            <input className='btn' type="submit" value="Envoyer" />
             </form>
 
           </div>

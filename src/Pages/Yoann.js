@@ -21,11 +21,6 @@ export default function Yoann() {
          <img src={cocktail} className="cokctailCards" alt="pizza" />
       <h3> AMARETTO SOUR </h3>
       <p>Amaretto, citron vert, Angostura</p>
-      <Ripples className='rip'>
-        <button type="button" className='btnBoisson'>
-            Order
-        </button>
-      </Ripples>
     </div>
     );
   }
@@ -36,11 +31,6 @@ export default function Yoann() {
          <img src={spritz} className="cokctailCards" alt="pizza" />
       <h3> SPRITZ </h3>
       <p>Aperol, Prosecco, eau gazeuse.</p>
-      <Ripples className='rip'>
-        <button type="button" className='btnBoisson'>
-            Order
-        </button>
-      </Ripples>
     </div>
     );
   }
@@ -51,11 +41,6 @@ export default function Yoann() {
          <img src={gin} className="cokctailCards" alt="pizza" />
       <h3> GIN TONIC </h3>
       <p>La base</p>
-      <Ripples className='rip'>
-        <button type="button" className='btnBoisson'>
-            Order
-        </button>
-      </Ripples>
     </div>
     );
   }
@@ -66,11 +51,6 @@ export default function Yoann() {
          <img src={gin2} className="cokctailCards" alt="pizza" />
       <h3> GIN BASILIC </h3>
       <p>Gin, basilic, citron vert.</p>
-      <Ripples className='rip'>
-        <button type="button" className='btnBoisson'>
-            Order
-        </button>
-      </Ripples>
     </div>
     );
   }
@@ -81,11 +61,6 @@ export default function Yoann() {
          <img src={NEGRONI} className="cokctailCards" alt="pizza" />
       <h3> NEGRONI</h3>
       <p>Gin, Vermouth, Campari.</p>
-      <Ripples className='rip'>
-        <button type="button" className='btnBoisson'>
-            Order
-        </button>
-      </Ripples>
     </div>
     );
   }

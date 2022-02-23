@@ -1,11 +1,16 @@
 .App {
     text-align: center;
-    background-color: white;
+    background-color: black;
   }
   
   .App-logo {
     height: 60vmin;
     pointer-events: none;
+  }
+
+  .valeur {
+    font-weight: bold;
+    color: #E53D00;
   }
 
   .insideBox {
@@ -18,7 +23,6 @@
   }
 
   .containBoissons {
-      background-color: white;
   }
 
   .containCards {
@@ -41,7 +45,6 @@
     margin-top: 40px;
     align-items: center;
     justify-content:space-around;
-    background-color: white;
   }
   
   .freshFarine {
@@ -50,7 +53,6 @@
     margin-top: 20px;
     align-items: center;
     justify-content:space-around;
-    background-color:white;
   }
 
   .formLabel {
@@ -74,13 +76,10 @@
 
   .TexteBlack {
       color: #000;
-      width: 550px ;
-    height: 150px;
+    text-align: center;
   }
   
   .containHistory {
-    background-color: white;
-    color: white;
     margin-top: 20px;
     margin-bottom: 40px;
   }
@@ -89,9 +88,13 @@
     width: 550px ;
     height: 150px;
   }
+
+  .ContactCard {
+    background-color: #E53D00;
+  }
   
   .containContact {
-    background-color:#FFE900;
+    background-color: #E53D00;
     color: black;
     margin-top: 20px;
     margin-bottom: 60px;

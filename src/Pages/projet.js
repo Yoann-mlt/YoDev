@@ -7,110 +7,75 @@ import Box from '@material-ui/core/Box';
 
 export default function Projet() {
 
-    function Item() {
-        return (
-        <div>
-          <img src={pizzaImg} className="pizzaCards" alt="pizza" />
-          <h3> LA MARGHERITA </h3>
-          <p>Sauce tomate San Marzano AOP, <br/>mozza fior di latte, <br/>basilic frais, huile d’olive</p>
-          <Ripples className='rip'>
-            <button type="button" className="btnBoisson">
-                Order
-            </button>
-          </Ripples>
-        </div>
-        );
-      }
+  function Item() {
+    return (
+    <div>
+      <img src={pizzaImg} className="pizzaCards" alt="pizza" />
+      <h3> LA MARGHERITA </h3>
+      <p>Sauce tomate San Marzano AOP, <br/>mozza fior di latte, <br/>basilic frais, huile d’olive</p>
+    </div>
+    );
+  }
 
-      function Item2() {
-        return (
-        <div>
-          <img src={pizzaImg} className="pizzaCards" alt="pizza" />
-          <h3> LA MARINARA </h3>
-          <p>Sauce tomate San Marzano AOP, ail, <br/> basilic frais, origan, huile d olive</p>
-          <Ripples className='rip'>
-            <button type="button" className="btnBoisson">
-                Order
-            </button>
-          </Ripples>
-        </div>
-        );
-      }
+  function Item2() {
+    return (
+    <div>
+      <img src={pizzaImg} className="pizzaCards" alt="pizza" />
+      <h3> LA MARINARA </h3>
+      <p>Sauce tomate San Marzano AOP, ail, <br/> basilic frais, origan, huile d olive</p>
+    </div>
+    );
+  }
 
-      function Item3() {
-        return (
-        <div>
-          <img src={pizzaImg} className="pizzaCards" alt="pizza" />
-          <h3> LA MELANCHOIS </h3>
-          <p>Sauce tomate San Marzano AOP,anchois,<br/> câpres, olives, basilic frais,<br/> huile d’olive</p>
-          <Ripples className='rip'>
-            <button type="button" className="btnBoisson">
-                Order
-            </button>
-          </Ripples>
-        </div>
-        );
-      }
+  function Item3() {
+    return (
+    <div>
+      <img src={pizzaImg} className="pizzaCards" alt="pizza" />
+      <h3> LA MELANCHOIS </h3>
+      <p>Sauce tomate San Marzano AOP,anchois,<br/> câpres, olives, basilic frais,<br/> huile d’olive</p>
+    </div>
+    );
+  }
 
-      function Item4() {
-        return (
-        <div>
-          <img src={pizzaImg} className="pizzaCards" alt="pizza" />
-          <h3> LA BUFALLA BILL </h3>
-          <p>Sauce tomate San Marzano AOP,mozza di Bufala,<br/> basilic frais, huile d’olive</p>
-          <Ripples className='rip'>
-            <button type="button" className="btnBoisson">
-                Order
-            </button>
-          </Ripples>
-        </div>
-        );
-      }
+  function Item4() {
+    return (
+    <div>
+      <img src={pizzaImg} className="pizzaCards" alt="pizza" />
+      <h3> LA BUFALLA BILL </h3>
+      <p>Sauce tomate San Marzano AOP,mozza di Bufala,<br/> basilic frais, huile d’olive</p>
+    </div>
+    );
+  }
 
-      function Item5() {
-        return (
-        <div>
-          <img src={pizzaImg} className="pizzaCards" alt="pizza" />
-          <h3> LA PUISSANCE 4 </h3>
-          <p>Gorgonzola, Tallegio, mozzaFior di Latte, <br/> parmesan, basilic frais, huile dolive </p>
-          <Ripples className='rip'>
-            <button type="button" className="btnBoisson">
-                Order
-            </button>
-          </Ripples>
-        </div>
-        );
-      }
+  function Item5() {
+    return (
+    <div>
+      <img src={pizzaImg} className="pizzaCards" alt="pizza" />
+      <h3> LA PUISSANCE 4 </h3>
+      <p>Gorgonzola, Tallegio, mozzaFior di Latte, <br/> parmesan, basilic frais, huile dolive </p>
+    </div>
+    );
+  }
 
-      function Item6() {
-        return (
-        <div>
-          <img src={pizzaImg} className="pizzaCards" alt="pizza" />
-          <h3> LA CALORE </h3>
-          <p>Sauce tomate SanMarzano AOP, salamipiccante,<br/> fior di latte, basilic frais, huile d'olive</p>
-          <Ripples className='rip'>
-            <button type="button" className="btnBoisson">
-                Order
-            </button>
-          </Ripples>
-        </div>
-        );
-      }
+  function Item6() {
+    return (
+    <div>
+      <img src={pizzaImg} className="pizzaCards" alt="pizza" />
+      <h3> LA CALORE </h3>
+      <p>Sauce tomate SanMarzano AOP, salamipiccante,<br/> fior di latte, basilic frais, huile d'olive</p>
+    </div>
+    );
+  }
 
-      function Item7() {
-        return (
-        <div>
-          <img src={pizzaImg} className="pizzaCards" alt="pizza" />
-          <h3> LA VEGETA (RIEN) </h3>
-          <p>Sauce tomate SanMarzano AOP, légumesdu jour,<br/> fior di latte diAgerola, basilic frais,<br/>huile d'olive</p>
-          <Ripples className='rip'>
-            <button type="button" className="btnBoisson">
-                Order
-            </button>
-          </Ripples>
-        </div>
-        );
-      }
+  function Item7() {
+    return (
+    <div>
+      <img src={pizzaImg} className="pizzaCards" alt="pizza" />
+      <h3> LA VEGETA (RIEN) </h3>
+      <p>Sauce tomate SanMarzano AOP, légumesdu jour,<br/> fior di latte diAgerola, basilic frais,<br/>huile d'olive</p>
+    </div>
+    );
+  }
 
     return(
         <div className='containCards'>
